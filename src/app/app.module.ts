@@ -8,6 +8,7 @@ import { WidgetsComponentComponent } from './widgets-component/widgets-component
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component'
 import { globalConfig } from './config';
+import { OktaInitiatedLoginComponent } from './okta-initiated-login/okta-initiated-login.component';
 
 const config = {
   issuer: globalConfig.issuer,
@@ -22,7 +23,8 @@ const config = {
     AppComponent,
     WidgetsComponentComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+    OktaInitiatedLoginComponent
   ],
   imports: [
     BrowserModule,

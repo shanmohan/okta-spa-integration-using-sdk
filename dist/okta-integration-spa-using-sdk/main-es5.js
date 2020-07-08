@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n\n  <title>Heroic Features - Start Bootstrap Template</title>\n  <base href=\"/\">\n\n</head>\n\n<body>\n\n  <!-- Navigation -->\n  <app-menu></app-menu>\n\n  <router-outlet></router-outlet>\n\n  <!-- Footer -->\n  <footer class=\"py-5 bg-dark\" style=\"background-color: #02305f !important\">\n    <div class=\"container\">\n      <p class=\"m-0 text-center text-white\">Copyright &copy; Your Website 2019</p>\n    </div>\n    <!-- /.container -->\n  </footer>\n\n\n</body>\n\n</html>";
+    __webpack_exports__["default"] = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n\n  <title>Heroic Features - Start Bootstrap Template</title>\n  <base href=\"/\">\n\n</head>\n\n<body>\n\n  <!-- Navigation -->\n  <app-menu></app-menu>\n\n  <router-outlet></router-outlet>\n\n  <!-- Footer -->\n  <footer class=\"py-5 bg-dark\" style=\"background-color: #02305f !important\">\n    <div class=\"container\">\n      <p class=\"m-0 text-center text-white\">Copyright &copy; Your Website 2020</p>\n    </div>\n    <!-- /.container -->\n  </footer>\n\n\n</body>\n\n</html>";
     /***/
   },
 
@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Page Content -->\n<div class=\"container\">\n    <!-- Jumbotron Header -->\n    <div style=\"padding-top: 100px;\">\n        <header class=\"jumbotron my-4\">\n            <h1 class=\"display-3\">A Warm Welcome {{name}}</h1>\n            <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt\n                possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam\n                repellat.</p>\n            <a href=\"#\" *ngIf=\"!isAuthenticated\" class=\"btn btn-primary btn-lg\"\n                (click)=\"oktaAuth.loginRedirect('dashboard')\">Login</a>\n        </header>\n    </div>\n\n</div>";
+    __webpack_exports__["default"] = "<!-- Page Content -->\n<div class=\"container\">\n    <!-- Jumbotron Header -->\n    <div style=\"padding-top: 100px;\">\n        <header class=\"jumbotron my-4\">\n            <h1 class=\"display-3\" *ngIf=\"!isAuthenticated\">Please click below to Login</h1>\n            <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt\n                possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam\n                repellat.</p>\n            <a href=\"#\" *ngIf=\"!isAuthenticated\" class=\"btn btn-primary btn-lg\"\n                (click)=\"oktaAuth.loginRedirect('dashboard')\">Login</a>\n        </header>\n    </div>\n\n</div>";
     /***/
   },
 
@@ -96,6 +96,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/okta-initiated-login/okta-initiated-login.component.html":
+  /*!****************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/okta-initiated-login/okta-initiated-login.component.html ***!
+    \****************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppOktaInitiatedLoginOktaInitiatedLoginComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/widgets-component/widgets-component.component.html":
   /*!**********************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/widgets-component/widgets-component.component.html ***!
@@ -111,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Page Features -->\n<div class=\"container\">\n    <div class=\"row text-center\" style=\"padding-top: 100px;\">\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Audit Card 1</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse\n                        necessitatibus\n                        neque.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Audit Card 2</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni\n                        sapiente,\n                        tempore debitis beatae culpa natus architecto.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Tax Card 1</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse\n                        necessitatibus\n                        neque.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Tax Card 2</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni\n                        sapiente,\n                        tempore debitis beatae culpa natus architecto.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n    </div>\n</div>\n<!-- /.row -->";
+    __webpack_exports__["default"] = "<!-- Page Features -->\n<div class=\"container\">\n\n    <div class=\"row text-center\" style=\"padding-top: 25px;\">\n        <div style=\"padding-top: 50px;\">\n            <header class=\"jumbotron my-4\">\n                <h6 class=\"display-3\">Welcome {{name}} to the Okta-SPA Reference Integration</h6>\n                <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo\n                    sunt\n                    possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat\n                    numquam\n                    repellat.</p>                \n            </header>\n        </div>\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Audit Card 1</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse\n                        necessitatibus\n                        neque.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Audit Card 2</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni\n                        sapiente,\n                        tempore debitis beatae culpa natus architecto.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Tax Card 1</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse\n                        necessitatibus\n                        neque.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-lg-3 col-md-6 mb-4\">\n            <div class=\"card h-100\">\n                <img class=\"card-img-top\" src=\"http://placehold.it/500x325\" alt=\"\">\n                <div class=\"card-body\">\n                    <h4 class=\"card-title\">Tax Card 2</h4>\n                    <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni\n                        sapiente,\n                        tempore debitis beatae culpa natus architecto.</p>\n                </div>\n                <div class=\"card-footer\">\n                    <a href=\"#\" class=\"btn btn-primary\">Find Out More!</a>\n                </div>\n            </div>\n        </div>\n\n    </div>\n</div>\n<!-- /.row -->";
     /***/
   },
 
@@ -734,6 +754,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _auth_guard_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./auth.guard.service */
     "./src/app/auth.guard.service.ts");
+    /* harmony import */
+
+
+    var _okta_initiated_login_okta_initiated_login_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./okta-initiated-login/okta-initiated-login.component */
+    "./src/app/okta-initiated-login/okta-initiated-login.component.ts");
 
     var routes = [{
       path: 'implicit/callback',
@@ -742,6 +768,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       path: 'dashboard',
       component: _widgets_component_widgets_component_component__WEBPACK_IMPORTED_MODULE_4__["WidgetsComponentComponent"],
       canActivate: [_auth_guard_service__WEBPACK_IMPORTED_MODULE_6__["AuthGuard"]]
+    }, {
+      path: 'login',
+      component: _okta_initiated_login_okta_initiated_login_component__WEBPACK_IMPORTED_MODULE_7__["OktaInitiatedLoginComponent"]
     }, {
       path: '',
       component: _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"]
@@ -1034,6 +1063,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _config__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./config */
     "./src/app/config.ts");
+    /* harmony import */
+
+
+    var _okta_initiated_login_okta_initiated_login_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./okta-initiated-login/okta-initiated-login.component */
+    "./src/app/okta-initiated-login/okta-initiated-login.component.ts");
 
     var config = {
       issuer: _config__WEBPACK_IMPORTED_MODULE_9__["globalConfig"].issuer,
@@ -1047,7 +1082,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _widgets_component_widgets_component_component__WEBPACK_IMPORTED_MODULE_6__["WidgetsComponentComponent"], _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__["MenuComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _widgets_component_widgets_component_component__WEBPACK_IMPORTED_MODULE_6__["WidgetsComponentComponent"], _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__["MenuComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"], _okta_initiated_login_okta_initiated_login_component__WEBPACK_IMPORTED_MODULE_10__["OktaInitiatedLoginComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _okta_okta_angular__WEBPACK_IMPORTED_MODULE_5__["OktaAuthModule"].initAuth(config)],
       providers: [_okta_okta_angular__WEBPACK_IMPORTED_MODULE_5__["OktaAuthService"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -1276,14 +1311,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var util__WEBPACK_IMPORTED_MODULE_3___default =
     /*#__PURE__*/
     __webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_3__);
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
 
     var HomeComponent =
     /*#__PURE__*/
     function () {
-      function HomeComponent(oktaAuth) {
+      function HomeComponent(oktaAuth, route) {
         _classCallCheck(this, HomeComponent);
 
         this.oktaAuth = oktaAuth;
+        this.route = route;
       }
 
       _createClass(HomeComponent, [{
@@ -1301,12 +1343,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
                   case 2:
                     this.user = _context4.sent;
+                    _context4.next = 5;
+                    return this.oktaAuth.isAuthenticated();
+
+                  case 5:
+                    this.isAuthenticated = _context4.sent;
 
                     if (!Object(util__WEBPACK_IMPORTED_MODULE_3__["isUndefined"])(this.user)) {
                       this.name = this.user.name;
                     }
 
-                  case 4:
+                  case 7:
                   case "end":
                     return _context4.stop();
                 }
@@ -1322,6 +1369,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     HomeComponent.ctorParameters = function () {
       return [{
         type: _okta_okta_angular__WEBPACK_IMPORTED_MODULE_2__["OktaAuthService"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
       }];
     };
 
@@ -1509,6 +1558,101 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/okta-initiated-login/okta-initiated-login.component.css":
+  /*!*************************************************************************!*\
+    !*** ./src/app/okta-initiated-login/okta-initiated-login.component.css ***!
+    \*************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppOktaInitiatedLoginOktaInitiatedLoginComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL29rdGEtaW5pdGlhdGVkLWxvZ2luL29rdGEtaW5pdGlhdGVkLWxvZ2luLmNvbXBvbmVudC5jc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/okta-initiated-login/okta-initiated-login.component.ts":
+  /*!************************************************************************!*\
+    !*** ./src/app/okta-initiated-login/okta-initiated-login.component.ts ***!
+    \************************************************************************/
+
+  /*! exports provided: OktaInitiatedLoginComponent */
+
+  /***/
+  function srcAppOktaInitiatedLoginOktaInitiatedLoginComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "OktaInitiatedLoginComponent", function () {
+      return OktaInitiatedLoginComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _okta_okta_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @okta/okta-angular */
+    "./node_modules/@okta/okta-angular/fesm2015/okta-angular.js");
+
+    var OktaInitiatedLoginComponent =
+    /*#__PURE__*/
+    function () {
+      function OktaInitiatedLoginComponent(oktaAuth) {
+        _classCallCheck(this, OktaInitiatedLoginComponent);
+
+        this.oktaAuth = oktaAuth;
+      }
+
+      _createClass(OktaInitiatedLoginComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.oktaAuth.loginRedirect('dashboard');
+        }
+      }]);
+
+      return OktaInitiatedLoginComponent;
+    }();
+
+    OktaInitiatedLoginComponent.ctorParameters = function () {
+      return [{
+        type: _okta_okta_angular__WEBPACK_IMPORTED_MODULE_2__["OktaAuthService"]
+      }];
+    };
+
+    OktaInitiatedLoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-okta-initiated-login',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./okta-initiated-login.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/okta-initiated-login/okta-initiated-login.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./okta-initiated-login.component.css */
+      "./src/app/okta-initiated-login/okta-initiated-login.component.css")).default]
+    })], OktaInitiatedLoginComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/widgets-component/widgets-component.component.css":
   /*!*******************************************************************!*\
     !*** ./src/app/widgets-component/widgets-component.component.css ***!
@@ -1559,21 +1703,72 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _okta_okta_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @okta/okta-angular */
+    "./node_modules/@okta/okta-angular/fesm2015/okta-angular.js");
+    /* harmony import */
+
+
+    var util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! util */
+    "./node_modules/util/util.js");
+    /* harmony import */
+
+
+    var util__WEBPACK_IMPORTED_MODULE_3___default =
+    /*#__PURE__*/
+    __webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_3__);
 
     var WidgetsComponentComponent =
     /*#__PURE__*/
     function () {
-      function WidgetsComponentComponent() {
+      function WidgetsComponentComponent(oktaAuth) {
         _classCallCheck(this, WidgetsComponentComponent);
+
+        this.oktaAuth = oktaAuth;
       }
 
       _createClass(WidgetsComponentComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
+        value: function ngOnInit() {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0,
+          /*#__PURE__*/
+          regeneratorRuntime.mark(function _callee8() {
+            return regeneratorRuntime.wrap(function _callee8$(_context8) {
+              while (1) {
+                switch (_context8.prev = _context8.next) {
+                  case 0:
+                    _context8.next = 2;
+                    return this.oktaAuth.getUser();
+
+                  case 2:
+                    this.user = _context8.sent;
+
+                    if (!Object(util__WEBPACK_IMPORTED_MODULE_3__["isUndefined"])(this.user)) {
+                      this.name = this.user.name;
+                    }
+
+                  case 4:
+                  case "end":
+                    return _context8.stop();
+                }
+              }
+            }, _callee8, this);
+          }));
+        }
       }]);
 
       return WidgetsComponentComponent;
     }();
+
+    WidgetsComponentComponent.ctorParameters = function () {
+      return [{
+        type: _okta_okta_angular__WEBPACK_IMPORTED_MODULE_2__["OktaAuthService"]
+      }];
+    };
 
     WidgetsComponentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-widgets-component',

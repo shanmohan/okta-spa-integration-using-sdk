@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { OktaAuthService } from '@okta/okta-angular';
+import { isUndefined } from 'util';
 
 @Component({
   selector: 'app-widgets-component',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./widgets-component.component.css']
 })
 export class WidgetsComponentComponent implements OnInit {
+  user: any;
+  name: string;
+  
+  constructor(private oktaAuth: OktaAuthService) { }
 
-  constructor() { }
+  async ngOnInit() {
+    this.user = await this.oktaAuth.getUser();
 
-  ngOnInit() {
+    if (!isUndefined(this.user)) {
+      this.name = this.user.name;
+    }
+    
   }
 
 }
